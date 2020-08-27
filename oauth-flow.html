@@ -63,7 +63,7 @@ if (url.searchParams.has('code')) {
 } else {
   // This is the initial pageload
   startButton.addEventListener('click', () => {
-    const authUrl = `https://www.coinbase.com/login/oauth/authorize?client_id=${CLIENT_ID}&scope=wallet:user:read,wallet:accounts:read&authorize=1`;
+    const authUrl = `https://www.coinbase.com/login/oauth/authorize?client_id=24f2009a55e4d7e5e2985ce9e0b1f31e844e37bdf47bc83b1bb02cd087b98752&scope=wallet:user:read,wallet:accounts:read&authorize=1`;
     fetch(
       authUrl,
       {
